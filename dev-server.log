@@ -1,0 +1,187 @@
+
+> hostelgrievance@0.0.1 dev:all
+> concurrently -k -n ui,api -c cyan,magenta "npm run dev" "npm run dev:api"
+
+[ui] 
+[ui] > hostelgrievance@0.0.1 dev
+[ui] > vite dev
+[ui] 
+[api] 
+[api] > hostelgrievance@0.0.1 dev:api
+[api] > tsx watch src/server/index.ts
+[api] 
+[api] HostelGrievance API listening on http://127.0.0.1:3001
+[ui] 
+[ui]   VITE v8.2.2  ready in 21382 ms
+[ui] 
+[ui]   ➜  Local:   http://localhost:5173/
+[ui]   ➜  Network: use --host to expose
+[ui] 
+[ui] [1;31m[404] GET /favicon.ico[0m
+[ui] 9:13:06 am [vite] (client) page reload .svelte-kit/generated/client/nodes/0.js
+[ui] 9:13:06 am [vite] (client) page reload .svelte-kit/generated/client/nodes/1.js
+[ui] 9:13:06 am [vite] (client) page reload .svelte-kit/generated/client/nodes/4.js
+[ui] 9:13:06 am [vite] (client) page reload .svelte-kit/generated/client/nodes/5.js
+[ui] 9:13:06 am [vite] (client) page reload .svelte-kit/generated/client/app.js
+[ui] 9:13:06 am [vite] (ssr) page reload .svelte-kit/generated/shared/error-template.js
+[ui] 9:13:06 am [vite] (ssr) page reload .svelte-kit/generated/server/internal.js
+[ui] 9:13:06 am [vite] (client) page reload .svelte-kit/generated/client/matchers.js
+[ui] 9:13:06 am [vite] (client) page reload .svelte-kit/generated/root.js
+[ui] 9:13:06 am [vite] (ssr) page reload .svelte-kit/generated/root.js
+[ui] 9:13:06 am [vite] (ssr) page reload .svelte-kit/generated/root.svelte
+[ui] 9:17:15 am [vite] (client) page reload .svelte-kit/generated/client/nodes/0.js
+[ui] 9:17:15 am [vite] (client) page reload .svelte-kit/generated/client/nodes/1.js
+[ui] 9:17:15 am [vite] (client) page reload .svelte-kit/generated/client/nodes/4.js
+[ui] 9:17:15 am [vite] (client) page reload .svelte-kit/generated/client/nodes/5.js
+[ui] 9:17:15 am [vite] (client) page reload .svelte-kit/generated/client/app.js
+[ui] 9:17:15 am [vite] (ssr) page reload .svelte-kit/generated/shared/error-template.js
+[ui] 9:17:15 am [vite] (ssr) page reload .svelte-kit/generated/server/internal.js
+[ui] 9:17:15 am [vite] (client) page reload .svelte-kit/generated/client/matchers.js
+[ui] 9:17:15 am [vite] (client) page reload .svelte-kit/generated/root.js
+[ui] 9:17:15 am [vite] (ssr) page reload .svelte-kit/generated/root.js
+[ui] 9:17:15 am [vite] (ssr) page reload .svelte-kit/generated/root.svelte
+[ui] 9:19:51 am [vite] (client) page reload .svelte-kit/generated/client/nodes/0.js
+[ui] 9:19:51 am [vite] (client) page reload .svelte-kit/generated/client/nodes/1.js
+[ui] 9:19:51 am [vite] (client) page reload .svelte-kit/generated/client/nodes/4.js
+[ui] 9:19:51 am [vite] (client) page reload .svelte-kit/generated/client/app.js
+[ui] 9:19:51 am [vite] (ssr) page reload .svelte-kit/generated/shared/error-template.js
+[ui] 9:19:51 am [vite] (ssr) page reload .svelte-kit/generated/server/internal.js
+[ui] 9:19:51 am [vite] (client) page reload .svelte-kit/generated/client/nodes/5.js
+[ui] 9:19:51 am [vite] (client) page reload .svelte-kit/generated/client/matchers.js
+[ui] 9:19:51 am [vite] (client) page reload .svelte-kit/generated/root.js
+[ui] 9:19:51 am [vite] (ssr) page reload .svelte-kit/generated/root.js
+[ui] 9:19:51 am [vite] (ssr) page reload .svelte-kit/generated/root.svelte
+[ui] 9:30:03 am [vite] (client) page reload .svelte-kit/generated/client/nodes/0.js
+[ui] 9:30:04 am [vite] (client) page reload .svelte-kit/generated/client/nodes/1.js
+[ui] 9:30:04 am [vite] (client) page reload .svelte-kit/generated/client/nodes/4.js
+[ui] 9:30:04 am [vite] (client) page reload .svelte-kit/generated/client/nodes/5.js
+[ui] 9:30:04 am [vite] (client) page reload .svelte-kit/generated/client/app.js
+[ui] 9:30:04 am [vite] (ssr) page reload .svelte-kit/generated/shared/error-template.js
+[ui] 9:30:04 am [vite] (ssr) page reload .svelte-kit/generated/server/internal.js
+[ui] 9:30:04 am [vite] (client) page reload .svelte-kit/generated/client/matchers.js
+[ui] 9:30:04 am [vite] (client) page reload .svelte-kit/generated/root.js
+[ui] 9:30:04 am [vite] (ssr) page reload .svelte-kit/generated/root.js
+[ui] 9:30:04 am [vite] (ssr) page reload .svelte-kit/generated/root.svelte
+[ui] 9:51:15 am [vite] (client) page reload .svelte-kit/generated/client/nodes/0.js
+[ui] 9:51:15 am [vite] (client) page reload .svelte-kit/generated/client/nodes/1.js
+[ui] 9:51:15 am [vite] (client) page reload .svelte-kit/generated/client/app.js
+[ui] 9:51:15 am [vite] (ssr) page reload .svelte-kit/generated/shared/error-template.js
+[ui] 9:51:15 am [vite] (client) page reload .svelte-kit/generated/client/nodes/4.js
+[ui] 9:51:15 am [vite] (client) page reload .svelte-kit/generated/client/nodes/5.js
+[ui] 9:51:15 am [vite] (ssr) page reload .svelte-kit/generated/server/internal.js
+[ui] 9:51:15 am [vite] (client) page reload .svelte-kit/generated/client/matchers.js
+[ui] 9:51:15 am [vite] (client) page reload .svelte-kit/generated/root.js
+[ui] 9:51:15 am [vite] (ssr) page reload .svelte-kit/generated/root.js
+[ui] 9:51:15 am [vite] (ssr) page reload .svelte-kit/generated/root.svelte
+[ui] 10:10:57 am [vite] (client) page reload .svelte-kit/generated/client/nodes/0.js
+[ui] 10:10:57 am [vite] (ssr) page reload .svelte-kit/generated/shared/error-template.js
+[ui] 10:10:57 am [vite] (ssr) page reload .svelte-kit/generated/server/internal.js
+[ui] 10:10:57 am [vite] (client) page reload .svelte-kit/generated/root.js
+[ui] 10:10:57 am [vite] (ssr) page reload .svelte-kit/generated/root.js
+[ui] 10:10:57 am [vite] (client) page reload .svelte-kit/generated/client/app.js
+[ui] 10:10:57 am [vite] (client) page reload .svelte-kit/generated/client/matchers.js
+[ui] 10:10:57 am [vite] (client) page reload .svelte-kit/generated/client/nodes/0.js
+[ui] 10:10:57 am [vite] (client) page reload .svelte-kit/generated/client/nodes/1.js
+[ui] 10:10:57 am [vite] (client) page reload .svelte-kit/generated/client/nodes/4.js
+[ui] 10:10:57 am [vite] (client) page reload .svelte-kit/generated/client/nodes/5.js
+[ui] 10:10:57 am [vite] (ssr) page reload .svelte-kit/generated/shared/error-template.js
+[ui] 10:10:58 am [vite] (ssr) page reload .svelte-kit/generated/root.svelte
+[ui] 10:39:20 am [vite] (client) hmr update /src/app.css
+[api] 10:39:20 am [tsx] change in ./src\server\auth\passwords.ts Restarting...
+[api] HostelGrievance API listening on http://127.0.0.1:3001
+[ui] 10:39:24 am [vite] (client) hmr update /src/app.css
+[api] 10:39:24 am [tsx] change in ./src\server\db\schema.ts Restarting...
+[api] HostelGrievance API listening on http://127.0.0.1:3001
+[ui] 10:39:28 am [vite] (client) hmr update /src/app.css
+[ui] 10:39:33 am [vite] (client) hmr update /src/app.css
+[api] 10:39:33 am [tsx] change in ./src\server\db\map.ts Restarting...
+[api] HostelGrievance API listening on http://127.0.0.1:3001
+[ui] 10:39:37 am [vite] (client) hmr update /src/app.css
+[api] 10:39:37 am [tsx] change in ./src\server\db\seed.ts Restarting...
+[api] HostelGrievance API listening on http://127.0.0.1:3001
+[ui] 10:39:41 am [vite] (client) hmr update /src/app.css
+[api] 10:39:41 am [tsx] change in ./src\server\auth\session.ts Restarting...
+[api] HostelGrievance API listening on http://127.0.0.1:3001
+[ui] 10:40:44 am [vite] (client) hmr update /src/app.css
+[api] 10:40:44 am [tsx] change in ./src\server\auth\session.ts Restarting...
+[api] HostelGrievance API listening on http://127.0.0.1:3001
+[ui] 10:40:50 am [vite] (client) hmr update /src/app.css
+[api] 10:40:50 am [tsx] change in ./src\server\routes\auth.ts Restarting...
+[api] HostelGrievance API listening on http://127.0.0.1:3001
+[ui] 10:40:56 am [vite] (client) hmr update /src/app.css
+[ui] 10:41:01 am [vite] (client) hmr update /src/app.css
+[ui] 10:41:06 am [vite] (client) page reload src/lib/services/api.ts
+[ui] 10:41:12 am [vite] (client) page reload src/lib/stores/auth.svelte.ts
+[ui] 10:42:48 am [vite] (client) hmr update /src/routes/login/+page.svelte, /src/app.css
+[ui] 10:42:53 am [vite] (client) hmr update /src/app.css
+[ui] 10:42:57 am [vite] (client) hmr update /src/app.css
+[ui] 10:43:21 am [vite] (client) page reload .svelte-kit/generated/client/nodes/0.js
+[ui] 10:43:21 am [vite] (client) page reload .svelte-kit/generated/client/nodes/1.js
+[ui] 10:43:21 am [vite] (client) page reload .svelte-kit/generated/client/nodes/4.js
+[ui] 10:43:21 am [vite] (client) page reload .svelte-kit/generated/client/nodes/5.js
+[ui] 10:43:21 am [vite] (client) page reload .svelte-kit/generated/client/app.js
+[ui] 10:43:21 am [vite] (ssr) page reload .svelte-kit/generated/shared/error-template.js
+[ui] 10:43:21 am [vite] (client) page reload .svelte-kit/generated/client/matchers.js
+[ui] 10:43:21 am [vite] (ssr) page reload .svelte-kit/generated/server/internal.js
+[ui] 10:43:21 am [vite] (client) page reload .svelte-kit/generated/root.js
+[ui] 10:43:21 am [vite] (ssr) page reload .svelte-kit/generated/root.js
+[ui] 10:43:21 am [vite] (ssr) page reload .svelte-kit/generated/root.svelte
+[ui] 10:44:47 am [vite] (client) hmr update /src/app.css
+[api] 10:44:47 am [tsx] change in ./src\server\routes\auth.ts Restarting...
+[api] HostelGrievance API listening on http://127.0.0.1:3001
+[ui] 10:44:50 am [vite] (client) hmr update /src/app.css
+[api] 10:44:50 am [tsx] change in ./src\server\routes\grievances.ts Restarting...
+[api] HostelGrievance API listening on http://127.0.0.1:3001
+[ui] 10:44:53 am [vite] (client) hmr update /src/app.css
+[api] 10:44:53 am [tsx] change in ./src\server\routes\attachments.ts Restarting...
+[api] HostelGrievance API listening on http://127.0.0.1:3001
+[ui] 10:45:18 am [vite] (client) hmr update /src/app.css
+[ui] 10:45:30 am [vite] (client) page reload .svelte-kit/generated/client/nodes/0.js
+[ui] 10:45:30 am [vite] (client) page reload .svelte-kit/generated/client/nodes/1.js
+[ui] 10:45:30 am [vite] (client) page reload .svelte-kit/generated/client/nodes/4.js
+[ui] 10:45:30 am [vite] (client) page reload .svelte-kit/generated/client/nodes/5.js
+[ui] 10:45:30 am [vite] (client) page reload .svelte-kit/generated/client/app.js
+[ui] 10:45:30 am [vite] (ssr) page reload .svelte-kit/generated/shared/error-template.js
+[ui] 10:45:30 am [vite] (ssr) page reload .svelte-kit/generated/server/internal.js
+[ui] 10:45:30 am [vite] (client) page reload .svelte-kit/generated/client/matchers.js
+[ui] 10:45:30 am [vite] (client) page reload .svelte-kit/generated/root.js
+[ui] 10:45:30 am [vite] (ssr) page reload .svelte-kit/generated/root.js
+[ui] 10:45:31 am [vite] (ssr) page reload .svelte-kit/generated/root.svelte
+[ui] 10:46:38 am [vite] (client) hmr update /src/app.css
+[api] 10:46:39 am [tsx] change in ./src\server\routes\grievances.ts Restarting...
+[api] HostelGrievance API listening on http://127.0.0.1:3001
+[ui] 10:52:13 am [vite] (client) page reload .svelte-kit/generated/client/nodes/0.js
+[ui] 10:52:13 am [vite] (client) page reload .svelte-kit/generated/client/nodes/1.js
+[ui] 10:52:13 am [vite] (client) page reload .svelte-kit/generated/client/nodes/2.js
+[ui] 10:52:13 am [vite] (client) page reload .svelte-kit/generated/client/nodes/0.js
+[ui] 10:52:13 am [vite] (client) page reload .svelte-kit/generated/client/nodes/1.js
+[ui] 10:52:13 am [vite] (client) page reload .svelte-kit/generated/client/nodes/2.js
+[ui] 10:52:13 am [vite] (client) page reload .svelte-kit/generated/client/app.js
+[ui] 10:52:13 am [vite] (ssr) page reload .svelte-kit/generated/shared/error-template.js
+[ui] 10:52:13 am [vite] (ssr) page reload .svelte-kit/generated/server/internal.js
+[ui] 10:52:13 am [vite] (client) page reload .svelte-kit/generated/client/nodes/4.js
+[ui] 10:52:13 am [vite] (client) page reload .svelte-kit/generated/client/nodes/5.js
+[ui] 10:52:13 am [vite] (client) page reload .svelte-kit/generated/client/nodes/6.js
+[ui] 10:52:13 am [vite] (client) page reload .svelte-kit/generated/client/nodes/7.js
+[ui] 10:52:13 am [vite] (client) page reload .svelte-kit/generated/client/matchers.js
+[ui] 10:52:13 am [vite] (client) page reload .svelte-kit/generated/root.js
+[ui] 10:52:13 am [vite] (ssr) page reload .svelte-kit/generated/root.js
+[ui] 10:52:13 am [vite] (ssr) page reload .svelte-kit/generated/root.svelte
+[ui] 11:46:55 am [vite] (client) page reload .svelte-kit/generated/client/nodes/0.js
+[ui] 11:46:55 am [vite] (client) page reload .svelte-kit/generated/client/nodes/1.js
+[ui] 11:46:55 am [vite] (client) page reload .svelte-kit/generated/client/nodes/2.js
+[ui] 11:46:55 am [vite] (client) page reload .svelte-kit/generated/client/nodes/4.js
+[ui] 11:46:55 am [vite] (client) page reload .svelte-kit/generated/client/app.js
+[ui] 11:46:55 am [vite] (ssr) page reload .svelte-kit/generated/shared/error-template.js
+[ui] 11:46:55 am [vite] (ssr) page reload .svelte-kit/generated/server/internal.js
+[ui] 11:46:55 am [vite] (client) page reload .svelte-kit/generated/client/nodes/5.js
+[ui] 11:46:55 am [vite] (client) page reload .svelte-kit/generated/client/nodes/6.js
+[ui] 11:46:55 am [vite] (client) page reload .svelte-kit/generated/client/nodes/7.js
+[ui] 11:46:55 am [vite] (client) page reload .svelte-kit/generated/client/app.js
+[ui] 11:46:55 am [vite] (client) page reload .svelte-kit/generated/client/matchers.js
+[ui] 11:46:55 am [vite] (ssr) page reload .svelte-kit/generated/shared/error-template.js
+[ui] 11:46:55 am [vite] (ssr) page reload .svelte-kit/generated/server/internal.js
+[ui] 11:46:55 am [vite] (client) page reload .svelte-kit/generated/root.js
+[ui] 11:46:55 am [vite] (ssr) page reload .svelte-kit/generated/root.js
+[ui] 11:46:55 am [vite] (ssr) page reload .svelte-kit/generated/root.svelte
+[ui] 11:46:55 am [vite] (ssr) page reload .svelte-kit/generated/root.svelte
